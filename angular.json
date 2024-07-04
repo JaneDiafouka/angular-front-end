@@ -25,6 +25,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -50,6 +51,7 @@
               "extractLicenses": false,
               "sourceMap": true
             }
+
           },
           "defaultConfiguration": "production"
         },
@@ -91,5 +93,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
